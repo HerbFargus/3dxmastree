@@ -10,6 +10,7 @@ tree.off() # Turn all LED's off
 
 while True:
 
+  print("Press Enter to Light Up Tree")
   raw_input()
   print("button pressed")
   tree.on()
